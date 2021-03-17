@@ -1,6 +1,6 @@
 body {
   color: black;
-  background-color: #d3e0dc;
+  background-color: #a7c5eb;
   font-family: sans-serif;
 }
 
@@ -10,7 +10,7 @@ header .Profile {
 }
 
 header .Profile:hover {
-  animation: Rotate 1s infinite;
+  animation: Rotate 1s;
 }
 
 @keyframes Rotate {
@@ -57,13 +57,20 @@ body content ul li::after {
   white-space: pre;
 }
 
-/*table,
-td {
-    border: 1px solid #333;
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  width: 5%;
+  border-width: 5px;
+  border-color: #86aba1;
 }
 
-thead,
-tfoot {
-    background-color: #333;
-    color: #fff;
+.mailme {
+  display: flex;
+  background: #d9e4dd;
+  max-width: 330px;
+  margin-top: 10px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 5px 25px grey;
 }
