@@ -1,12 +1,12 @@
 body {
   color: black;
-  background-color: #a7c5eb;
+  background-color: #f4f9f9;
   font-family: sans-serif;
 }
 
 header .Profile {
   width: 150px;
-  height: 150px;
+  height: 150px;  
 }
 
 header .Profile:hover {
@@ -73,4 +73,14 @@ hr {
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 5px 25px grey;
+}
+
+h1 {
+  color: #16c79a;
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+
+h3 {
+  color: #6ddccf;
+  font-family: "Lucida Console", "Courier New", monospace;
 }
