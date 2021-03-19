@@ -53,3 +53,23 @@ h3 {
   left: 300px;
   bottom: 300px;
 }
+
+
+.MyProfilePic:hover{
+  animation: Rotate 1s;
+}
+
+@keyframes Rotate {
+  1%{
+    transform: rotateY(90deg);
+  }
+  2%{
+    transform: rotateY(180deg);
+  }
+  3%{
+    transform: rotateY(270deg);
+  }
+  4%{
+    transform: rotateY(360deg);
+  }
+}
