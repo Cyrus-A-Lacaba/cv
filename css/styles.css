@@ -18,10 +18,12 @@ h1 {
   margin-top: 0;
   font-family: 'Fredoka One', cursive;
   text-shadow: 2px 2px grey;
+  font-size: 5.625em; /*100% = 16px=1em....90px = 562.5% or 5.625em */
 }
 
 h2 {
   font-family: 'Montserrat', sans-serif;
+  font-size: 2em;
 }
 
 h3 {
