@@ -34,6 +34,11 @@ h3 {
   height: 150px;
 }
 
+.MySkillsPic {
+  width: 100px;
+  height: 100px;
+}
+
 .top-container {
   background-color: #caf7e3;
   border: 10px;
