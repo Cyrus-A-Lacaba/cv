@@ -48,6 +48,10 @@ h2 {
   font-size: 2rem;
 }
 
+span{
+  font-weight: normal;
+}
+
 h3 {
   margin: 0 auto 0 auto;
   font-family: 'Montserrat', sans-serif;
@@ -102,4 +106,10 @@ h3 {
   4%{
     transform: rotateY(360deg);
   }
+}
+
+.skill-row{
+  margin:50px auto 50px auto;
+  width: 50%;
+  line-height: 2;
 }
