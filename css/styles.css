@@ -66,6 +66,24 @@ h3 {
   color: #11999E
 }
 
+.profile {
+  margin-top: 50px;
+}
+
+.intro{
+  width: 50%;
+  margin:50px auto 50px auto;
+}
+
+.skills{
+  margin: 50px auto 50px auto;
+}
+
+.contact-me {
+  margin: 50px auto 50px auto;
+
+}
+
 .MyProfilePic {
   width: 150px;
   height: 150px;
@@ -84,11 +102,11 @@ h3 {
 }
 
 .top-container {
-  background-color: white;
+  background-color: #eaf6f6;
   border: 10px;
   padding: 10px;
   position: relative;
-  padding-top: 100px;
+  padding-top: 120px;
 }
 
 .middle-container {
@@ -99,14 +117,33 @@ h3 {
   position: absolute;
   right: 300px;
   top: 50px;
+  animation: 10s linear 1s infinite alternate slidein;
+}
+
+@keyframes slidein {
+  0%{
+    right: 300px;
+  }
+  100%{
+    right: 1050px;
+  }
 }
 
 .bottom-cloud {
   position: absolute;
   left: 300px;
-  bottom: 300px;
+  bottom: 310px;
+  animation: 10s linear 1s infinite alternate slidein2;
 }
 
+@keyframes slidein2 {
+  0%{
+    left: 300px;
+  }
+  100%{
+    left: 1050px;
+  }
+}
 
 .MyProfilePic:hover{
   animation: Rotate 1s;
