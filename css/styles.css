@@ -1,10 +1,14 @@
 table {
   table-layout:fixed;
-  width: 510px;
+  width: 700px;
   font-family: 'Fahkwang', sans-serif;
   font-size: 18px;
   font-weight: bold;
 }
+
+td:nth-child(1) {
+  width: 250px;
+  }
 
 .carousel-item {
   height: 500px;
@@ -203,7 +207,13 @@ table {
     padding: 10px;
 }
 
-@media (max-width: 900px) {
+@media only screen and (max-width: 620px) {
+
+  .MyProfilePic {
+    width: 250px;
+    height: 250px;
+    margin: 40px auto 20px auto;
+  }
 
   .content .home-h1{
     font-size: 40px;
@@ -237,8 +247,14 @@ table {
 
   table {
     font-size: 25px;
-    width: 450px;
+    width: 500px;
   }
+
+  td:nth-child(1) {
+    width: 200px;
+    }
+
+
   .button {
     width: 30%;
     height: 40%;
