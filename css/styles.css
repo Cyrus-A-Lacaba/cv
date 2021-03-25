@@ -209,26 +209,6 @@ td:nth-child(1) {
 
 @media screen and (max-width: 600px) {
 
-  .home {
-    width: 100%;
-  }
-  .skills {
-      width: 100%;
-  }
-
-  .experience {
-      width: 100%;
-  }
-
-  .education {
-      width: 100%;
-  }
-
-  .work {
-      width: 100%;
-  }
-
-
   .MyProfilePic {
     width: 250px;
     height: 250px;
