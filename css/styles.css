@@ -209,7 +209,7 @@ td:nth-child(1) {
 }
 
 
-@media only screen and (max-width:900px) {
+@media only screen and (max-width: 900px) {
 
 body{
   width: auto;
@@ -222,34 +222,29 @@ body{
 
   .content .home-h1{
     font-size: 40px;
-    text-align: center;
   }
 
   .content .content-h1{
     font-size: 40px;
-    text-align: center;
   }
 
   .content .content-h4{
     font-size: 25px;
-    width: 100%;
   }
 
   .content .content-home-h3{
     font-size: 35px;
-    width: 100%;
   }
 
   .content .content-skills-h3{
     font-size: 35px;
-    width: 100%;
   }
 
 
   .content .content-home-p{
     font-size: 25px;
     text-align: left;
-    width: 100%;
+    width: 500px;
   }
 
   #footer{
