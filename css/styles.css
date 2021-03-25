@@ -213,6 +213,7 @@ td:nth-child(1) {
 
 body{
   width: 400px;
+  text-align: center;
 }
   .MyProfilePic {
     width: 250px;
