@@ -239,6 +239,7 @@ td:nth-child(1) {
   .content .content-home-p{
     font-size: 25px;
     text-align: left;
+    width: 100%;
   }
 
   #footer{
