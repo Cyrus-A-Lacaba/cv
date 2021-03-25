@@ -213,7 +213,6 @@ td:nth-child(1) {
 
 body{
   width: 400px;
-  text-align: center;
 }
   .MyProfilePic {
     width: 250px;
@@ -223,29 +222,34 @@ body{
 
   .content .home-h1{
     font-size: 40px;
+    text-align: center;
   }
 
   .content .content-h1{
     font-size: 40px;
+    text-align: center;
   }
 
   .content .content-h4{
     font-size: 25px;
+    width: 100%;
   }
 
   .content .content-home-h3{
     font-size: 35px;
+    width: 100%;
   }
 
   .content .content-skills-h3{
     font-size: 35px;
+    width: 100%;
   }
 
 
   .content .content-home-p{
     font-size: 25px;
     text-align: left;
-    width: 500px;
+    width: 100%;
   }
 
   #footer{
