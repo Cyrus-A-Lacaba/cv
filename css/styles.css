@@ -211,10 +211,10 @@ td:nth-child(1) {
     padding: 10px;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 900px) {
 
 body{
-  width: 90%;
+  width: 80%;
 }
   .MyProfilePic {
     width: 250px;
