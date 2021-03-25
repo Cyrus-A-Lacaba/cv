@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 table {
   table-layout:fixed;
   width: 700px;
@@ -207,7 +211,7 @@ td:nth-child(1) {
     padding: 10px;
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 600px) {
 
   .MyProfilePic {
     width: 250px;
