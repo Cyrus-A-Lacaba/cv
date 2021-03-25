@@ -209,15 +209,47 @@ td:nth-child(1) {
 }
 
 
-@media only screen and (max-width:800px) {
+@media only screen and (max-width:900px) {
 
 body{
-  width: 400px;
+  width: auto;
 }
   .MyProfilePic {
     width: 250px;
     height: 250px;
-    margin: 40px;
+    margin: 40px auto 20px auto;
+  }
+
+  .content .home-h1{
+    font-size: 40px;
+    text-align: center;
+  }
+
+  .content .content-h1{
+    font-size: 40px;
+    text-align: center;
+  }
+
+  .content .content-h4{
+    font-size: 25px;
+    width: 100%;
+  }
+
+  .content .content-home-h3{
+    font-size: 35px;
+    width: 100%;
+  }
+
+  .content .content-skills-h3{
+    font-size: 35px;
+    width: 100%;
+  }
+
+
+  .content .content-home-p{
+    font-size: 25px;
+    text-align: left;
+    width: 100%;
   }
 
   #footer{
