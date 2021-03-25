@@ -1,245 +1,210 @@
-.top-container {
-  position: relative;
-  background-color: #eaf6f6;
-  padding-top: 170px;
-  text-align: center;
+table {
+  table-layout:fixed;
+  width: 510px;
+  font-family: 'Fahkwang', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
 }
 
-.middle-container {
-  background-color: white;
-  text-align: center;
+.carousel-item {
+  height: 500px;
 }
 
-.bottom-container {
-  color: #eaf6f6;
-  background-color: #66bfbf;
-  text-align: center;
-  height: 100px;
-  font-family: 'Montserrat', sans-serif;
-  margin-top: 50px;
+.company {
+  color: blue;
+  text-shadow: 2px 4px 8px grey;
 }
 
-.Home {
-  margin: auto;
-  font-family: 'Fredoka One', cursive;
-  text-shadow: 4px 4px grey;
-  color: #66BFBF
+.skills-bar{
+  display:inline-flex;
+  background-color: #79a3b1;
+  border-width: 1px;
+  border-radius: 30px;
+  height: 20px;
 }
 
-.Home:hover {
-  animation: shadowx 1s;
-}
-
-@keyframes shadowx {
-  50% {
-    text-shadow: 0 0 grey;
-  }
-
-  100% {
-    text-shadow: 4px 4px grey;
-  }
-}
-
-.Home_Title {
-  margin-bottom: 50px;
-}
-
-hr {
-  border-style: none;
-  border-top-style: dotted;
-  width: 5%;
-  border-width: 5px;
-  border-color: #86aba1;
-}
-
-h2 {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 2rem;
-  text-align: center;
-}
-
-h5 {
-  text-align: center;
-  margin: auto auto 0 auto;
-  font-family: 'Montserrat', sans-serif;
-  color: #11999E
-}
-
-img {
+.skills-bar-background{
+  display:inline-flex;
+  background-color: #11698e;
+  border-width: 1px;
+  border-radius: 30px;
   filter: drop-shadow(2px 4px 8px grey);
+  width: 200px;
+  height: 20px;
+  margin-left: 10px;
 }
 
-.top-cloud {
-  position: absolute;
-  right: 300px;
-  top: 70px;
-  animation: 10s linear 1s infinite alternate slidein;
+.skills-bar .perc10 {
+  width: 20px;
+}
+.skills-bar .perc20 {
+  width: 40px;
+}
+.skills-bar .perc30 {
+  width: 60px;
+}
+.skills-bar .perc40 {
+  width: 80px;
+}
+.skills-bar .perc50 {
+  width: 100px;
+}
+.skills-bar .perc60 {
+  width: 120px;
+}
+.skills-bar .perc70 {
+  width: 140px;
+}
+.skills-bar .perc80 {
+  width: 160px;
+}
+.skills-bar .perc90 {
+  width: 180px;
+  text-align: center;
+}
+.skills-bar .perc100 {
+  width: 200px;
 }
 
-@keyframes slidein {
-  0% {
-    right: 300px;
-  }
+/* Accordion Button */
 
-  100% {
-    right: 600px;
-  }
+.accordion-btn {
+    width: 50%;
+}
+/* Navigation Bar */
+
+.navbar-brand{
+  font-family: 'Poller One', cursive;
+  font-weight: bold;
+  margin-left: 5%;
 }
 
-.bottom-cloud {
-  position: absolute;
-  left: 300px;
-  bottom: 310px;
-  animation: 10s linear 1s infinite alternate slidein2;
+.navbar{
+  padding-left: 0;
+  padding-bottom: 4.5rem;
+  background-color: #092532;
 }
 
-@keyframes slidein2 {
-  0% {
-    left: 300px;
-  }
-
-  100% {
-    left: 600px;
-  }
+.nav-item {
+  margin: auto 18px auto 18px;
 }
 
-.MyProfilePic {
-  width: 150px;
-  height: 150px;
-  margin: auto auto 50px auto;
+.nav-link{
+  font-size: 1rem;
 }
 
-.MyProfilePic:hover {
-  animation: Rotate 1s;
+
+/* Header */
+
+.home {
+  background-color: #fff;
+  padding: 80px 30px 30px 30px;
+  text-align: center;
 }
-
-@keyframes Rotate {
-  1% {
-    transform: rotateY(90deg);
-  }
-
-  2% {
-    transform: rotateY(180deg);
-  }
-
-  3% {
-    transform: rotateY(270deg);
-  }
-
-  4% {
-    transform: rotateY(360deg);
-  }
-}
-
-.profile {
-  margin-top: 50px;
-}
-
-.intro {
-  width: 50%;
-  margin: 50px auto 50px auto;
-}
-
 .skills {
-  margin: 50px auto 50px auto;
+  background-color: #cfdac8;
+  padding: 30px;
+  text-align: left;
+}
+
+.experience {
+  background-color: #fff;
+  padding: 30px;
+  text-align: left;
 }
 
 .education {
-  margin: 50px auto 50px auto;
-  text-align: center;
+  background-color: #cfdac8;
+  padding: 30px;
+  text-align: left;
 }
 
-.trainings {
-  margin: 50px auto 50px auto;
-  text-align: center;
+.work {
+  background-color: #fff;
+  padding: 30px;
+  text-align: left;
 }
 
-.contact-me {
-  margin: 50px auto 50px auto;
-}
-
-.MySkillsPic1 {
-  float: left;
-  width: 15%;
-  margin-left: 100px;
-}
-
-.MySkillsPic2 {
-  float: right;
-  width: 15%;
-  margin-right: 100px
-}
-
-.skill-row {
-  margin: 50px auto 50px auto;
-  width: 50%;
-  line-height: 2;
-}
-
-table {
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.comments {
-  margin-bottom: 50px;
-}
-
-.footer-gmail {
-  position: relative;
-  color: #11999E;
-  padding-right: 20px;
-  top: 20px;
-}
-
-.footer-fb {
-  position: relative;
-  color: #11999E;
-  padding-left: 20px;
-  top: 20px;
-}
-
-.footer-cr {
-  position: relative;
-  top: 30px;
-}
-
-.BUTTON_UCQ {
-  background: #0D676C;
-  background-image: -webkit-linear-gradient(top, #0D676C, #16A3A9);
-  background-image: -moz-linear-gradient(top, #0D676C, #16A3A9);
-  background-image: -ms-linear-gradient(top, #0D676C, #16A3A9);
-  background-image: -o-linear-gradient(top, #0D676C, #16A3A9);
-  background-image: -webkit-gradient(to bottom, #0D676C, #16A3A9);
-  -webkit-border-radius: 6px;
-  -moz-border-radius: 6px;
-  border-radius: 6px;
-  color: #FFFFFF;
-  font-family: Verdana;
-  font-size: 15px;
-  font-weight: 300;
-  padding: 10px;
-  -webkit-box-shadow: 1px 1px 20px 0 #000000;
-  -moz-box-shadow: 1px 1px 20px 0 #000000;
-  box-shadow: 1px 1px 20px 0 #000000;
-  text-shadow: 1px 1px 20px #000000;
-  border: solid #337FED 0;
-  text-decoration: none;
+.content .content-home-h1{
   display: inline-block;
-  cursor: pointer;
+  font-family: 'Poller One', cursive;
+  text-shadow: 2px 2px grey;
+  color: Black;
+  font-size: 45px;
+  margin: auto auto 40px auto;
+}
+
+.content .content-home-h1-plain{
+  display: inline-block;
+  font-family: 'Poller One', cursive;
+  text-shadow: 2px 2px grey;
+  color: #51c2d5;
+}
+
+.content .content-home-h3{
+  font-family: 'Anton', sans-serif;
+  text-align: left;
+}
+
+.content .content-h1{
+  display: inline-block;
+  font-family: 'Poller One', cursive;
+  color: Black;
+  font-size: 40px;
+  margin: auto auto 30px auto;
+  text-decoration: underline;
+  text-align: left;
+}
+
+.content .content-skills-h3{
+  display: inline-block;
+  font-family: 'Anton', sans-serif;
+  text-align: left;
+}
+
+.content .content-h4{
+  display: inline-block;
+  font-family: 'Fahkwang', sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.content .content-home-p{
+  font-family: 'Fahkwang', sans-serif;
+  line-height: 2;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: justify;
+}
+
+/* Content */
+.MyProfilePic {
+  width: 300px;
+  height: 300px;
+  margin: 20px auto 20px auto;
+}
+
+.intro{
   text-align: center;
 }
 
-.BUTTON_UCQ:hover {
-  border: solid #10CADD 0;
-  background: #10878D;
-  background-image: -webkit-linear-gradient(top, #10878D, #29B0D9);
-  background-image: -moz-linear-gradient(top, #10878D, #29B0D9);
-  background-image: -ms-linear-gradient(top, #10878D, #29B0D9);
-  background-image: -o-linear-gradient(top, #10878D, #29B0D9);
-  background-image: -webkit-gradient(to bottom, #10878D, #29B0D9);
-  -webkit-border-radius: 6px;
-  -moz-border-radius: 6px;
-  border-radius: 6px;
-  text-decoration: none;
+
+/* Footer */
+#footer{
+  top:100%;
+  color: white;
+  font-size: 1rem;
+  background-color: #092532;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.footer-img{
+    padding: 10px;
+}
+
+@media (max-width: 900px) {
+  table {
+    width: 450px;
+  }
 }
