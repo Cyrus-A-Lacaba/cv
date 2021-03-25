@@ -211,7 +211,7 @@ td:nth-child(1) {
 @media screen and (max-width: 900px) {
 
 body{
-  width: 80%;
+  width: 400px;
 }
   .MyProfilePic {
     width: 250px;
