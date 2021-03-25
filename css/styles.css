@@ -272,8 +272,11 @@ td:nth-child(1) {
 
   td:nth-child(1) {
     width: 250px;
-    }
-
+  }
+  
+  td:nth-child(2) {
+    width: 350px;
+  }
 
   .button {
     width: 30%;
