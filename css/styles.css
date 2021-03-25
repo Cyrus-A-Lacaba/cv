@@ -207,7 +207,7 @@ td:nth-child(1) {
     padding: 10px;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 1000px) {
 
   .home {
     width: 100%;
