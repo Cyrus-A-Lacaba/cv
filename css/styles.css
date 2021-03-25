@@ -217,7 +217,7 @@ body{
   .MyProfilePic {
     width: 250px;
     height: 250px;
-    margin: 40px auto 20px auto;
+    margin: 40px auto 20px 30%;
   }
 
   #footer{
