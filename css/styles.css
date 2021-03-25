@@ -267,11 +267,11 @@ td:nth-child(1) {
 
   table {
     font-size: 25px;
-    width: 700px;
+    width: 600px;
   }
 
   td:nth-child(1) {
-    width: 300px;
+    width: 200px;
   }
 
   td:nth-child(2) {
