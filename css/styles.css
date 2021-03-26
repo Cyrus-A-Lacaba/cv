@@ -40,6 +40,14 @@ H1, H2, H3, H4, H5, H6 {
   margin-left: 10px;
 }
 
+.skills-bar .perc10,.skills-bar .perc20,.skills-bar .perc30,.skills-bar .perc40,
+.skills-bar .perc50,.skills-bar .perc60,.skills-bar .perc70,.skills-bar .perc80,
+.skills-bar .perc90,.skills-bar .perc100{
+  margin: auto 50%;
+  font-size: 0.8rem;
+  color: #fff;
+}
+
 .skills-bar .perc10 {
   width: 20px;
 }
@@ -94,6 +102,7 @@ H1, H2, H3, H4, H5, H6 {
 	box-shadow: 2px 2px 3px grey;
   opacity: 80;
   text-decoration: none;
+  z-index: 1;
 }
 
 .my-float{
