@@ -1,18 +1,19 @@
-
 table {
-  table-layout:fixed;
-  width: 700px;
+  table-layout: fixed;
+  width: 100%;
   font-family: 'Fahkwang', sans-serif;
-  font-size: 18px;
+  line-height: 1.5;
+  font-size: 1.3rem;
   font-weight: bold;
 }
 
 td:nth-child(1) {
-  width: 250px;
-  }
+  width: 40%;
+}
 
-.carousel-item {
-  height: 500px;
+
+H1, H2, H3, H4, H5, H6 {
+  font-family: 'Anton', sans-serif;
 }
 
 .company {
@@ -20,16 +21,16 @@ td:nth-child(1) {
   text-shadow: 2px 4px 8px grey;
 }
 
-.skills-bar{
-  display:inline-flex;
+.skills-bar {
+  display: inline-flex;
   background-color: #79a3b1;
   border-width: 1px;
   border-radius: 30px;
   height: 20px;
 }
 
-.skills-bar-background{
-  display:inline-flex;
+.skills-bar-background {
+  display: inline-flex;
   background-color: #11698e;
   border-width: 1px;
   border-radius: 30px;
@@ -42,237 +43,227 @@ td:nth-child(1) {
 .skills-bar .perc10 {
   width: 20px;
 }
+
 .skills-bar .perc20 {
   width: 40px;
 }
+
 .skills-bar .perc30 {
   width: 60px;
 }
+
 .skills-bar .perc40 {
   width: 80px;
 }
+
 .skills-bar .perc50 {
   width: 100px;
 }
+
 .skills-bar .perc60 {
   width: 120px;
 }
+
 .skills-bar .perc70 {
   width: 140px;
 }
+
 .skills-bar .perc80 {
   width: 160px;
 }
+
 .skills-bar .perc90 {
   width: 180px;
   text-align: center;
 }
+
 .skills-bar .perc100 {
   width: 200px;
 }
 
-/* Accordion Button */
-
-.accordion-btn {
-    width: 50%;
+.float{
+	position:fixed;
+	width:50px;
+	height:50px;
+	bottom:40px;
+	right:20px;
+	background-color:#fff;
+	color:#092532;
+	border-radius:100%;
+	text-align:center;
+	box-shadow: 2px 2px 3px grey;
+  opacity: 80;
+  text-decoration: none;
 }
-/* Navigation Bar */
 
-.navbar-brand{
+.my-float{
+	margin-top:22px;
+}
+
+/* ----------------Header------------------------ */
+
+#MyHome {
+  width: 100%;
+  background-color: #fff;
+  padding: 8% 3% 3% 3%;
+  text-align: center;
+}
+
+#MySkills,#MyEducation {
+  width: 100%;
+  background-color: #cfdac8;
+  padding: 3%;
+  text-align: Left;
+}
+
+#MyExperience,#MyWork{
+  width: 100%;
+  background-color: #fff;
+  padding: 3%;
+  text-align: Left;
+}
+
+/* Navigation Bar */
+.navbar-brand {
   font-family: 'Poller One', cursive;
   font-weight: bold;
   margin-left: 5%;
 }
 
-.navbar{
+.navbar {
   padding-left: 0;
-  padding-bottom: 4.5rem;
   background-color: #092532;
 }
 
-.nav-item {
-  margin: auto 18px auto 18px;
-}
-
-.nav-link{
+.nav-link {
   font-size: 1rem;
-}
-
-
-/* Header */
-
-.home {
-  background-color: #fff;
-  padding: 80px 30px 30px 30px;
-  text-align: center;
-}
-.skills {
-  background-color: #cfdac8;
-  padding: 30px;
-  text-align: left;
-}
-
-.experience {
-  background-color: #fff;
-  padding: 30px;
-  text-align: left;
-}
-
-.education {
-  background-color: #cfdac8;
-  padding: 30px;
-  text-align: left;
-}
-
-.work {
-  background-color: #fff;
-  padding: 30px;
-  text-align: left;
-}
-
-.content .content-home-h1{
-  display: inline-block;
-  font-family: 'Poller One', cursive;
-  text-shadow: 2px 2px grey;
-  color: Black;
-  font-size: 45px;
-  margin: auto auto 40px auto;
-}
-
-.content .content-home-h1-plain{
-  display: inline-block;
-  font-family: 'Poller One', cursive;
-  text-shadow: 2px 2px grey;
-  color: #51c2d5;
-}
-
-.content .content-home-h3{
-  font-family: 'Anton', sans-serif;
-  text-align: left;
-}
-
-.content .content-h1{
-  display: inline-block;
-  font-family: 'Poller One', cursive;
-  color: Black;
-  font-size: 40px;
-  margin: auto auto 30px auto;
-  text-decoration: underline;
-  text-align: left;
-}
-
-.content .content-skills-h3{
-  display: inline-block;
-  font-family: 'Anton', sans-serif;
-  text-align: left;
-}
-
-.content .content-h4{
-  display: inline-block;
-  font-family: 'Fahkwang', sans-serif;
-  font-size: 15px;
-  font-weight: bold;
-}
-
-.content .content-home-p{
-  font-family: 'Fahkwang', sans-serif;
-  line-height: 2;
-  font-size: 18px;
-  font-weight: bold;
-  text-align: justify;
 }
 
 /* Content */
 .MyProfilePic {
-  width: 300px;
-  height: 300px;
-  margin: 20px auto 20px auto;
+  width: 50%;
+  height: 50%;
+  margin: 15% auto 15% auto;
 }
 
-.intro{
-  text-align: center;
+.content .content-h1, .content .content-h2, .content .content-h3, .content .content-h4 {
+  font-family: 'Poller One', cursive;
 }
 
+.content .content-h1 {
+  text-shadow: 2px 2px grey;
+  font-size: 2.5rem;
+  margin: 5% auto 5% auto;
+}
+
+.content .content-h2 {
+  text-align: left;
+  font-size: 2rem;
+}
+
+.content .content-h3 {
+  text-align: left;
+  font-size: 1.5rem;
+}
+
+.content .content-h4 {
+  display: inline-block;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.content .content-p {
+  font-family: 'Fahkwang', sans-serif;
+  line-height: 1.5;
+  font-size: 1.3rem;
+  font-weight: bold;
+  text-align: justify;
+}
+
+.content .skills-p {
+  font-family: 'Fahkwang', sans-serif;
+  line-height: 1.5;
+  font-size: 1.3rem;
+  font-weight: bold;
+  text-align: left;
+}
+
+.download-btn {
+  margin: 5%;
+}
 
 /* Footer */
-#footer{
-  top:100%;
+#footer {
   color: white;
   font-size: 1rem;
   background-color: #092532;
   text-align: center;
-  margin-bottom: 0;
 }
 
-.footer-img{
-    padding: 10px;
+.footer-img {
+  padding: 10px;
 }
-
 
 @media only screen and (max-width: 600px) {
 
-
-  .MyProfilePic {
-    width: 250px;
-    height: 250px;
-    margin: 40px auto 20px auto;
-  }
-
-  .content .home-h1{
-    font-size: 40px;
-  }
-
-  .content .content-h1{
-    font-size: 40px;
-  }
-
-  .content .content-h4{
-    font-size: 25px;
-  }
-
-  .content .content-home-h3{
-    font-size: 35px;
-  }
-
-  .content .content-skills-h3{
-    font-size: 35px;
-  }
-
-
-  .content .content-home-p{
-    font-size: 25px;
-    text-align: left;
-    width: 500px;
-  }
-
-  #footer{
-    font-size: 25px;
-    width: 600px;
-  }
-
   table {
-    font-size: 25px;
-    width: 500px;
+    table-layout: fixed;
+    width: 100%;
+    font-size: 1.1rem;
   }
 
-  td:nth-child(1) {
-    width: 200px;
+
+/* Content */
+
+#MyHome {
+  width: 100%;
+  background-color: #fff;
+  padding: 8% 3% 3% 3%;
+  text-align: center;
+}
+
+#MySkills,#MyEducation {
+  width: 100%;
+  background-color: #cfdac8;
+  padding: 3%;
+  text-align: Left;
+}
+
+#MyExperience,#MyWork{
+  width: 100%;
+  background-color: #fff;
+  padding: 3%;
+  text-align: Left;
+}
+
+  /* Nav Bar */
+  .nav-item {
+    margin-left: 5%;
   }
 
-  td:nth-child(2) {
-    width: 300px;
+  .content .content-h1 {
+    text-shadow: 2px 2px grey;
+    font-size: 2rem;
+    margin: 5% auto 5% auto;
   }
 
-  .button {
-    width: 30%;
-    height: 40%;
+  .content .content-h2 {
+    font-size: 1.8rem;
   }
 
-  .navbar-dark .navbar-brand{
-    font-size: 50px;
+  .content .content-h3 {
+    font-size: 1.4rem;
   }
 
-  .navbar-dark .navbar-nav .nav-link{
-    font-size: 30px;
+  .content .content-h4 {
+    font-size: 1.3rem;
+  }
+
+  .content .content-p {
+    font-size: 1.2rem;
+  }
+
+  .content .skills-p {
+    font-size: 1.2rem;
   }
 }
