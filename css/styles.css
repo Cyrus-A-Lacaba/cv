@@ -91,17 +91,18 @@ H1, H2, H3, H4, H5, H6 {
 
 .float{
 	position:fixed;
-	width:50px;
-	height:50px;
+	width:40px;
+	height:40px;
 	bottom:40px;
 	right:20px;
 	background-color:#fff;
 	color:#092532;
 	border-radius:100%;
-	text-align:center;	
+	text-align:center;
   opacity: 80;
   text-decoration: none;
   z-index: 1;
+  visibility: hidden;
 }
 
 .my-float{
