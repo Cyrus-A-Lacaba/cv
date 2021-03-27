@@ -93,8 +93,8 @@ H1, H2, H3, H4, H5, H6 {
 	position:fixed;
 	width:40px;
 	height:40px;
-	bottom:40px;
-	right:20px;
+	bottom:30px;
+	right:30px;
 	background-color:#fff;
 	color:#092532;
 	border-radius:100%;
@@ -153,9 +153,10 @@ H1, H2, H3, H4, H5, H6 {
   width: 50%;
   height: 50%;
   margin: 15% auto 15% auto;
+  filter: drop-shadow(2px 4px 8px grey);
 }
 
-.content .content-h1, .content .content-h2, .content .content-h3, .content .content-h4 {
+.content .content-h1, .content .content-h2, .content-h3, .content .content-h3, .content .content-h4 {
   font-family: 'Poller One', cursive;
 }
 
@@ -170,7 +171,7 @@ H1, H2, H3, H4, H5, H6 {
   font-size: 2rem;
 }
 
-.content .content-h3 {
+.content .content-h3, .content-h3 {
   text-align: left;
   font-size: 1.5rem;
 }
@@ -181,7 +182,7 @@ H1, H2, H3, H4, H5, H6 {
   font-weight: bold;
 }
 
-.content .content-p {
+.content .content-p,.content-p {
   font-family: 'Fahkwang', sans-serif;
   line-height: 1.5;
   font-size: 1.3rem;
