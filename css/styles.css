@@ -1,3 +1,7 @@
+*{
+  scroll-behavior: smooth;
+}
+
 table {
   table-layout: fixed;
   width: 100%;
@@ -91,18 +95,17 @@ H1, H2, H3, H4, H5, H6 {
 
 .float{
 	position:fixed;
-	width:40px;
-	height:40px;
+	width:48px;
+	height:48px;
 	bottom:30px;
 	right:30px;
 	background-color:#fff;
 	color:#092532;
 	border-radius:100%;
-	text-align:center;
-  opacity: 80;
   text-decoration: none;
   z-index: 1;
   visibility: hidden;
+  margin: 0;
 }
 
 .my-float{
@@ -112,21 +115,18 @@ H1, H2, H3, H4, H5, H6 {
 /* ----------------Header------------------------ */
 
 #MyHome {
-  width: 100%;
   background-color: #fff;
   padding: 8% 3% 3% 3%;
-  text-align: center;
+  text-align: left;
 }
 
 #MySkills,#MyEducation {
-  width: 100%;
   background-color: #cfdac8;
   padding: 3%;
   text-align: Left;
 }
 
 #MyExperience,#MyWork{
-  width: 100%;
   background-color: #fff;
   padding: 3%;
   text-align: Left;
@@ -152,7 +152,7 @@ H1, H2, H3, H4, H5, H6 {
 .MyProfilePic {
   width: 50%;
   height: 50%;
-  margin: 15% auto 15% auto;
+  margin: 15% 25%;
   filter: drop-shadow(2px 4px 8px grey);
 }
 
@@ -199,7 +199,7 @@ H1, H2, H3, H4, H5, H6 {
 }
 
 .download-btn {
-  margin: 5%;
+  margin: 5% 0;
 }
 
 /* Footer */
@@ -233,14 +233,12 @@ H1, H2, H3, H4, H5, H6 {
 }
 
 #MySkills,#MyEducation {
-  width: 100%;
   background-color: #cfdac8;
   padding: 3%;
   text-align: Left;
 }
 
 #MyExperience,#MyWork{
-  width: 100%;
   background-color: #fff;
   padding: 3%;
   text-align: Left;
