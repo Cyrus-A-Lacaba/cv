@@ -1,4 +1,4 @@
-*{
+* {
   scroll-behavior: smooth;
 }
 
@@ -13,11 +13,6 @@ table {
 
 td:nth-child(1) {
   width: 40%;
-}
-
-
-H1, H2, H3, H4, H5, H6 {
-  font-family: 'Anton', sans-serif;
 }
 
 .company {
@@ -44,10 +39,11 @@ H1, H2, H3, H4, H5, H6 {
   margin-left: 10px;
 }
 
-.skills-bar .perc10,.skills-bar .perc20,.skills-bar .perc30,.skills-bar .perc40,
-.skills-bar .perc50,.skills-bar .perc60,.skills-bar .perc70,.skills-bar .perc80,
-.skills-bar .perc90,.skills-bar .perc100{
-  margin: auto 50%;
+
+.skills-bar .perc10, .skills-bar .perc20, .skills-bar .perc30, .skills-bar .perc40,
+.skills-bar .perc50, .skills-bar .perc60, .skills-bar .perc70, .skills-bar .perc80,
+.skills-bar .perc90, .skills-bar .perc100 {
+  margin: auto 43%;
   font-size: 0.8rem;
   color: #fff;
 }
@@ -93,40 +89,39 @@ H1, H2, H3, H4, H5, H6 {
   width: 200px;
 }
 
-.float{
-	position:fixed;
-	width:48px;
-	height:48px;
-	bottom:30px;
-	right:30px;
-	background-color:#fff;
-	color:#092532;
-	border-radius:100%;
+.float {
+  position: fixed;
+  width: 48px;
+  height: 48px;
+  bottom: 30px;
+  right: 30px;
+  background-color: #fff;
+  color: #092532;
+  border-radius: 100%;
   text-decoration: none;
   z-index: 1;
   visibility: hidden;
   margin: 0;
 }
 
-.my-float{
-	margin-top:22px;
+.my-float {
+  margin-top: 22px;
 }
 
 /* ----------------Header------------------------ */
-
 #MyHome {
   background-color: #fff;
   padding: 8% 3% 3% 3%;
   text-align: left;
 }
 
-#MySkills,#MyEducation {
+#MySkills, #MyEducation {
   background-color: #cfdac8;
   padding: 3%;
   text-align: Left;
 }
 
-#MyExperience,#MyWork{
+#MyExperience, #MyWork {
   background-color: #fff;
   padding: 3%;
   text-align: Left;
@@ -150,10 +145,11 @@ H1, H2, H3, H4, H5, H6 {
 
 /* Content */
 .MyProfilePic {
+  position: block;
   width: 50%;
   height: 50%;
   margin: 15% 25%;
-  filter: drop-shadow(2px 4px 8px grey);
+  filter: drop-shadow(2px 4px 8px black);
 }
 
 .content .content-h1, .content .content-h2, .content-h3, .content .content-h3, .content .content-h4 {
@@ -182,7 +178,7 @@ H1, H2, H3, H4, H5, H6 {
   font-weight: bold;
 }
 
-.content .content-p,.content-p {
+.content .content-p, .content-p {
   font-family: 'Fahkwang', sans-serif;
   line-height: 1.5;
   font-size: 1.3rem;
@@ -199,7 +195,7 @@ H1, H2, H3, H4, H5, H6 {
 }
 
 .download-btn {
-  margin: 5% 0;
+  margin-top: 5%;
 }
 
 /* Footer */
@@ -215,34 +211,31 @@ H1, H2, H3, H4, H5, H6 {
 }
 
 @media only screen and (max-width: 600px) {
-
   table {
     table-layout: fixed;
     width: 100%;
     font-size: 1.1rem;
   }
 
+  /* Content */
+  #MyHome {
+    width: 100%;
+    background-color: #fff;
+    padding: 8% 3% 3% 3%;
+    text-align: center;
+  }
 
-/* Content */
+  #MySkills, #MyEducation {
+    background-color: #cfdac8;
+    padding: 3%;
+    text-align: Left;
+  }
 
-#MyHome {
-  width: 100%;
-  background-color: #fff;
-  padding: 8% 3% 3% 3%;
-  text-align: center;
-}
-
-#MySkills,#MyEducation {
-  background-color: #cfdac8;
-  padding: 3%;
-  text-align: Left;
-}
-
-#MyExperience,#MyWork{
-  background-color: #fff;
-  padding: 3%;
-  text-align: Left;
-}
+  #MyExperience, #MyWork {
+    background-color: #fff;
+    padding: 3%;
+    text-align: Left;
+  }
 
   /* Nav Bar */
   .nav-item {
