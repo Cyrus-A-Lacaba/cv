@@ -57,7 +57,7 @@ tr:nth-child(even){
   border-width: 1px;
   border-radius: 30px;
   filter: drop-shadow(2px 4px 8px grey);
-  width: 100px;
+  width: 200px;
   height: 20px;
   margin: 10px;
 }
@@ -71,44 +71,44 @@ tr:nth-child(even){
 }
 
 .skills-bar .perc10 {
-  width: 10px;
-}
-
-.skills-bar .perc20 {
   width: 20px;
 }
 
-.skills-bar .perc30 {
-  width: 30px;
-}
-
-.skills-bar .perc40 {
+.skills-bar .perc20 {
   width: 40px;
 }
 
-.skills-bar .perc50 {
-  width: 50px;
-}
-
-.skills-bar .perc60 {
+.skills-bar .perc30 {
   width: 60px;
 }
 
-.skills-bar .perc70 {
-  width: 70px;
-}
-
-.skills-bar .perc80 {
+.skills-bar .perc40 {
   width: 80px;
 }
 
+.skills-bar .perc50 {
+  width: 100px;
+}
+
+.skills-bar .perc60 {
+  width: 120px;
+}
+
+.skills-bar .perc70 {
+  width: 140px;
+}
+
+.skills-bar .perc80 {
+  width: 160px;
+}
+
 .skills-bar .perc90 {
-  width: 90px;
+  width: 180px;
   text-align: center;
 }
 
 .skills-bar .perc100 {
-  width: 100px;
+  width: 200px;
 }
 
 .float {
