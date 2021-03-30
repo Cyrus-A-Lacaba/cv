@@ -236,18 +236,21 @@ tr:nth-child(even){
 
   /* Content */
   #MyHome {
+    width: 100vw;
     background-color: #fff;
     padding: 5%;
     text-align: center;
   }
 
   #MySkills, #MyEducation {
+    width: 100vw;
     background-color: #cfdac8;
     padding: 5%;
     text-align: Left;
   }
 
   #MyExperience, #MyWork {
+    width: 100vw;
     background-color: #fff;
     padding: 5%;
     text-align: Left;
