@@ -17,7 +17,7 @@ table {
 
 td:nth-child(1) {
   width: 40%;
-  padding-left: 10px;
+  padding-left: 3px;
 }
 
 tr:nth-child(odd){
@@ -238,21 +238,21 @@ tr:nth-child(even){
   #MyHome {
     width: 100vw;
     background-color: #fff;
-    padding: 3%;
+    padding: 5%;
     text-align: center;
   }
 
   #MySkills, #MyEducation {
     width: 100vw;
     background-color: #cfdac8;
-    padding: 3%;
+    padding: 5%;
     text-align: Left;
   }
 
   #MyExperience, #MyWork {
     width: 100vw;
     background-color: #fff;
-    padding: 3%;
+    padding: 5%;
     text-align: Left;
   }
 
