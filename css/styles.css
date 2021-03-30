@@ -19,11 +19,6 @@ td:nth-child(1) {
   width: 40%;
 }
 
-td:nth-child(2) {
-  width: 60%;
-  word-break: break-all;
-}
-
 tr:nth-child(odd){
   background-color: #e8e8e8;
 }
@@ -133,19 +128,16 @@ tr:nth-child(even){
 /* ----------------Header------------------------ */
 #MyHome {
   background-color: #fff;
-  padding: 3%;
   text-align: left;
 }
 
 #MySkills, #MyEducation {
   background-color: #cfdac8;
-  padding: 3%;
   text-align: Left;
 }
 
 #MyExperience, #MyWork {
   background-color: #fff;
-  padding: 3%;
   text-align: Left;
 }
 
@@ -234,29 +226,23 @@ tr:nth-child(even){
 @media only screen and (max-width: 600px) {
   table {
     table-layout: fixed;
-    width: 100%;
     font-size: 1.1rem;
   }
 
   /* Content */
   #MyHome {
-    width: 100vw;
     background-color: #fff;
-    padding: 5%;
     text-align: center;
   }
 
   #MySkills, #MyEducation {
-    width: 100vw;
     background-color: #cfdac8;
-    padding: 5%;
     text-align: Left;
   }
 
   #MyExperience, #MyWork {
     width: 100vw;
-    background-color: #fff;
-    padding: 5%;
+    background-color: #fff;    
     text-align: Left;
   }
 
