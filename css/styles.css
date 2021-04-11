@@ -1,4 +1,4 @@
-* {
+html {
   scroll-behavior: smooth;
 }
 
@@ -150,7 +150,7 @@ tr:nth-child(even){
 
 .navbar {
   padding-left: 0;
-  background-color: #092532;
+  /* background-color: #092532; */
 }
 
 .nav-link {
@@ -224,6 +224,11 @@ tr:nth-child(even){
 }
 
 @media only screen and (max-width: 600px) {
+
+  div {
+    overflow-x:hidden;
+  }
+
   table {
     font-size: 1.1rem;
   }

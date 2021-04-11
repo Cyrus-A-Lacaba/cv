@@ -7,6 +7,9 @@
   <title>Cyrus A. Lacaba</title>
   <link rel="icon" href="favicon.ico">
 
+  <!-- JQuery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
   <!-- BootStrap -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
@@ -22,7 +25,6 @@
 
   <!-- Custom CSS and JS -->
   <link rel="stylesheet" href="css/styles.css">
-  <script src="js/mysite.js" charset="utf-8"></script>
 
 </head>
 
@@ -30,37 +32,35 @@
   <a id="Home-btn" class="float" href="#MyHome"><i class="fas fa-arrow-alt-circle-up fa-3x"></i></a>
 
   <header id="header">
-    <div class="container-fluid">
-      <nav class="navbar fixed-top navbar-expand-lg navbar-dark">
-        <a class="navbar-brand" href="">CAL</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nbMenu" aria-controls="nbMenu" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="nbMenu">
-          <ul id="navUL" class="navbar-nav ml-auto">
-            <li id="navHome" class="nav-item"><a class="nav-link" href="#">Home</a></li>
-            <li class="nav-item"><a class="nav-link" href="#MySkills">Skills</a></li>
-            <li class="nav-item"><a class="nav-link" href="#MyExperience">Experience</a></li>
-            <li class="nav-item"><a class="nav-link" href="#MyEducation">Education</a></li>
-            <li class="nav-item"><a class="nav-link" href="#MyWork">Work</a></li>
-            <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
-            </li>
-          </ul>
-        </div>
-      </nav>
-    </div>
+    <nav class="navbar fixed-top navbar-light">
+      <a class="navbar-brand" href="">CAL</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nbMenu" aria-controls="nbMenu" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="nbMenu">
+        <ul id="navUL" class="navbar-nav ml-auto">
+          <li id="navHome" class="nav-item"><a class="nav-link" href="#">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#MySkills">Skills</a></li>
+          <li class="nav-item"><a class="nav-link" href="#MyExperience">Experience</a></li>
+          <li class="nav-item"><a class="nav-link" href="#MyEducation">Education</a></li>
+          <li class="nav-item"><a class="nav-link" href="#MyWork">Work</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+          </li>
+        </ul>
+      </div>
+    </nav>
   </header>
 
   <div class="content">
     <div id="MyHome" class="home">
       <div class="container-fluid">
         <div class="row align-items-center">
-          <div class="col-lg-6 col-md-12">
+          <div class="col-lg-6">
             <img class="MyProfilePic" src="images/myProfilePic.png" alt="MyProfilePic">
           </div>
-          <div class="col-lg-6 col-md-12">
+          <div class="col-lg-6">
             <h1 class="content-h1">I'M CYRUS A. LACABA</h1>
-            <h3 class="content-h3">Windows Application/Web Programmer</h3>
+            <h3 class="content-h3">Software/Web Developer</h3>
             <p class="content-p">Result-driven Software Developer with over <em>16 years</em> experience in creating I.T. related
               solutions in different industries.
             </p>
@@ -69,7 +69,7 @@
               personal and professional capabilities and to work in a position that
               fits my qualifications.
             </p>
-            <a href="myfolder/Cyrus-Lacaba.pdf" download><button type="button" class="btn btn-primary btn-lg download-btn"><i class="fas fa-download"></i> Download CV</button></a>
+            <a href="myfolder/Cyrus-Lacaba.doc" download><button type="button" class="btn btn-primary btn-lg download-btn"><i class="fas fa-download"></i> Download CV</button></a>
           </div>
         </div>
       </div>
@@ -78,7 +78,7 @@
     <div id="MySkills" class="skills">
       <h1 class="content-h2">SKILLS</h1>
       <div class="row">
-        <div class="col-lg-6 col-md-12">
+        <div class="col-lg-6">
           <h3 class="content-h3">Windows Applications</h3>
           <table cellspacing=20>
             <tbody>
@@ -115,7 +115,7 @@
             </tbody>
           </table>
         </div>
-        <div class="col-lg-6 col-md-12">
+        <div class="col-lg-6">
           <h3 class="content-h3">Web Development</h3>
           <table cellspacing=20>
             <tbody>
@@ -153,7 +153,13 @@
                 <td>
                   <h4 class="skills-p">Java Script</h4>
                 </td>
-                <td><span class="skills-bar-background"><span class="skills-bar"><span class="skills-bar perc80">80%</span></span></td>
+                <td><span class="skills-bar-background"><span class="skills-bar"><span class="skills-bar perc90">90%</span></span></td>
+              </tr>
+              <tr>
+                <td>
+                  <h4 class="skills-p">JQuery</h4>
+                </td>
+                <td><span class="skills-bar-background"><span class="skills-bar"><span class="skills-bar perc90">90%</span></span></td>
               </tr>
               <tr>
                 <td>
@@ -172,7 +178,7 @@
         </div>
       </div>
       <div class="row">
-        <div class="col-lg-6 col-md-12">
+        <div class="col-lg-6">
           <h3 class="content-h3">DATABASE</h3>
           <table cellspacing=20>
             <tbody>
@@ -203,7 +209,7 @@
     <div id="MyExperience" class="experience">
       <h1 class="content-h2">EXPERIENCE</h1>
       <div class="row">
-        <div class="col-lg-6 col-md-12">
+        <div class="col-lg-6">
           <table cellspacing=20>
             <tbody>
               <tr>
@@ -268,7 +274,7 @@
             </tbody>
           </table>
         </div>
-        <div class="col-lg-6 col-md-12">
+        <div class="col-lg-6">
           <table cellspacing=20>
             <tbody>
               <tr>
@@ -339,7 +345,7 @@
     <div id="MyEducation" class="education">
       <h1 class="content-h2">EDUCATION</h1>
       <div class="row">
-        <div class="col-lg-6 col-md-12">
+        <div class="col-lg-6">
           <table cellspacing=20>
             <tr>
               <td>College</td>
@@ -363,7 +369,7 @@
             </tr>
           </table>
         </div>
-        <div class="col-lg-6 col-md-12">
+        <div class="col-lg-6">
           <table cellspacing=20>
             <tr>
               <td>Vocational</td>
@@ -383,7 +389,7 @@
             </tr>
           </table>
         </div>
-        <div class="col-lg-6 col-md-12">
+        <div class="col-lg-6">
           <table cellspacing=20>
             <tr>
               <td>Vocational</td>
@@ -403,7 +409,7 @@
             </tr>
           </table>
         </div>
-        <div class="col-lg-6 col-md-12">
+        <div class="col-lg-6">
           <table cellspacing=20>
             <tr>
               <td>Vocational</td>
@@ -429,7 +435,7 @@
     <div id="MyWork" class="work">
       <h1 class="content-h2">WORK</h1>
       <div class="row">
-        <div class="col-lg-6 col-md-12">
+        <div class="col-lg-6">
           <table cellspacing=20>
             <tr>
               <td>Name</td>
@@ -445,7 +451,7 @@
             </tr>
           </table>
         </div>
-        <div class="col-lg-6 col-md-12">
+        <div class="col-lg-6">
           <table cellspacing=20>
             <tr>
               <td>Name</td>
@@ -462,7 +468,7 @@
             </tr>
           </table>
         </div>
-        <div class="col-lg-6 col-md-12">
+        <div class="col-lg-6">
           <table cellspacing=20>
             <tr>
               <td>Name</td>
@@ -481,7 +487,7 @@
             </tr>
           </table>
         </div>
-        <div class="col-lg-6 col-md-12">
+        <div class="col-lg-6">
           <table cellspacing=20>
             <tr>
               <td>Name</td>
@@ -497,7 +503,7 @@
             </tr>
           </table>
         </div>
-        <div class="col-lg-6 col-md-12">
+        <div class="col-lg-6">
           <table cellspacing=20>
             <tr>
               <td>Name</td>
@@ -515,7 +521,7 @@
             </tr>
           </table>
         </div>
-        <div class="col-lg-6 col-md-12">
+        <div class="col-lg-6">
           <table cellspacing=20>
             <tr>
               <td>Name</td>
@@ -533,7 +539,7 @@
             </tr>
           </table>
         </div>
-        <div class="col-lg-6 col-md-12">
+        <div class="col-lg-6">
           <table cellspacing=20>
             <tr>
               <td>Name</td>
@@ -551,7 +557,7 @@
             </tr>
           </table>
         </div>
-        <div class="col-lg-6 col-md-12">
+        <div class="col-lg-6">
           <table cellspacing=20>
             <tr>
               <td>Name</td>
@@ -569,7 +575,7 @@
             </tr>
           </table>
         </div>
-        <div class="col-lg-6 col-md-12">
+        <div class="col-lg-6">
           <table cellspacing=20>
             <tr>
               <td>Name</td>
@@ -597,6 +603,8 @@
     <p class="copyright">© Copyright 2021 CAL</p>
   </footer>
 
+  <!-- Java Script -->
+  <script src="js/mysite.js" charset="utf-8"></script>
 </body>
 
 </html>
