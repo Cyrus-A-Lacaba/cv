@@ -30,6 +30,7 @@ tr:nth-child(even){
 .company {
   color: blue;
   text-shadow: 2px 4px 8px gray;
+  cursor: pointer;
 }
 
 .skills-bar {
@@ -46,6 +47,10 @@ tr:nth-child(even){
   background-color: #51c4d3;
 }
 
+.animate-skills-bg {
+  background-color: darkgray;
+}
+
 @keyframes full {
   from { width: 1%; }
   to   { width:100%; }
@@ -56,7 +61,7 @@ tr:nth-child(even){
   background-color: #11698e;
   border-width: 1px;
   border-radius: 30px;
-  filter: drop-shadow(2px 4px 8px grey);
+  filter: drop-shadow(2px 4px 8px gray);
   width: 200px;
   height: 20px;
   margin: 10px;
@@ -65,7 +70,7 @@ tr:nth-child(even){
 /* Navigation Bar */
 
 .page-scrolling{
-  opacity: 85%;
+  opacity: 80%;
 }
 
 .home-visibility{
