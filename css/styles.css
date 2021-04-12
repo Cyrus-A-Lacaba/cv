@@ -29,7 +29,7 @@ tr:nth-child(even){
 
 .company {
   color: blue;
-  text-shadow: 2px 4px 8px grey;
+  text-shadow: 2px 4px 8px gray;
 }
 
 .skills-bar {
@@ -38,7 +38,12 @@ tr:nth-child(even){
   border-width: 1px;
   border-radius: 30px;
   height: 20px;
+  animation-iteration-count:2;
   animation: 1s linear 1s full;
+}
+
+.animate-skills {
+  background-color: #51c4d3;
 }
 
 @keyframes full {
@@ -55,6 +60,16 @@ tr:nth-child(even){
   width: 200px;
   height: 20px;
   margin: 10px;
+}
+
+/* Navigation Bar */
+
+.page-scrolling{
+  opacity: 85%;
+}
+
+.home-visibility{
+  display: none;
 }
 
 .skills-bar .perc10, .skills-bar .perc20, .skills-bar .perc30, .skills-bar .perc40,
@@ -115,7 +130,7 @@ tr:nth-child(even){
   border-radius: 100%;
   text-decoration: none;
   z-index: 1;
-  visibility: hidden;
+  visibility: visible;
   margin: 0;
 }
 
@@ -167,10 +182,11 @@ tr:nth-child(even){
 
 .content .content-h1, .content .content-h2, .content-h3, .content .content-h3, .content .content-h4 {
   font-family: 'Poller One', cursive;
+  text-shadow: 2px 2px 2px grey;
 }
 
 .content .content-h1 {
-  text-shadow: 2px 2px grey;
+  text-shadow: 2px 2px 2px grey;
   font-size: 2.5rem;
   margin: 5% auto 5% auto;
 }
